@@ -1,0 +1,64 @@
+.add-window{
+    background: linear-gradient(90deg, #8E0E00, #1E1E1E);
+}
+
+#Create_Playlist{
+    background: transparent;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#button_Create{
+    background: linear-gradient(45deg, #F68213, #EE2523);
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+}
+#button_Create > *{
+    background: linear-gradient(45deg, #F68213, #EE2523);
+}
+#Entry_Playlist_Name{
+    background: #1E1E1E;
+    font-size: 12px;
+    border:none;
+    color: #ffffff;
+}
+
+#entry_playlist{
+    background: #ffffff;
+    font-size: 12px;
+    border:none;
+    color: #1E1E1E;
+}
+#Label_Recommend_Songs{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    background: transparent;
+}
+#scrolled_window{
+    background: #C51300;
+}
+#container_box{
+    background:  #C51300;
+}
+#image{
+    background: transparent;
+}
+#label_name{
+    background: transparent;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+#label_singer{
+    background: transparent;
+    font-size: 10px;
+    color: #969696;
+    font-weight: bold;
+}
+#checkbox{
+    background: transparent;
+}

@@ -1,0 +1,68 @@
+.sign-up-window{
+    background: linear-gradient(45deg, #8E0E00, #1E1E1E);
+}
+/*#Logo,#Logo_account, #Logo_password, #toggleButton{*/
+/*    background: transparent;*/
+/*}*/
+#label_MysticMelody {
+    background: transparent;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#button_Sign_up{
+    font-size: 20px;
+    background: linear-gradient(45deg, #EE2523, #F68213);
+    font-weight: 800;
+    border-radius: 20px;
+    border: 0px;
+    color: #ffffff;
+}
+#button_Sign_up{
+    background: linear-gradient(45deg, #EE2523, #F68213);
+}
+#Label_Already{
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#label_SignIn{
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#Entry_Username,#Entry_Password{
+    background: transparent;
+    border:none;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 1px transparent;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+#toggleButton{
+    background: transparent;
+    border: none;
+}
+#toggleButton > *{
+    background: transparent;
+}
+#checkbox{
+    background: transparent;
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#passwordStatusLabel{
+    background: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#passwordStatusLabelSignUp{
+    background: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}

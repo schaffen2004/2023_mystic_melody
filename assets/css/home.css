@@ -1,0 +1,114 @@
+.home-window {
+    background: linear-gradient(45deg, #8E0E00, #1E1E1E);
+    border-radius: 10px;
+
+}
+
+#Logo {
+    background: transparent;
+}
+
+#label_MysticMelody {
+    background: transparent;
+    font-size: 35px;
+    font-weight: bold;
+    color: #AFAFAF;
+}
+
+#button_Sign_In {
+    font-size: 20px;
+    background: linear-gradient(45deg, #EE2523, #F68213);
+    font-weight: 800;
+    border-radius: 20px;
+    border: 0px;
+    color: #ffffff;
+}
+
+#button_Sign_In > * {
+    background: linear-gradient(45deg, #EE2523, #F68213);
+}
+
+#label_DonnotHave {
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #AFAFAF;
+}
+
+#label_SignUp {
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#Entry_Username, #Entry_Password {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 1px transparent;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#toggleButton {
+    background: transparent;
+    border: none;
+}
+
+#toggleButton > * {
+    background: transparent;
+}
+
+#checkbox {
+    background: transparent;
+    font-size: 17px;
+    font-weight: bold;
+    color: #AFAFAF;
+}
+
+#checkbox > * {
+    background: transparent;
+}
+
+#passwordStatusLabel {
+    background: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#custom-progress-bar {
+    background-color: #292828;
+    border: none;
+    border-radius: 20px;
+}
+
+#custom-progress-bar trough {
+    background-color: #292828;
+    border-radius: 20px;
+}
+
+#custom-progress-bar progress {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+#time_label {
+    background: transparent;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+#play-button {
+    background: transparent;
+    border: none;
+}
+
+#search_box {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 0 65px;
+    margin: -3px;
+}

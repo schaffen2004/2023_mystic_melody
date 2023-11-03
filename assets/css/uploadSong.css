@@ -1,0 +1,16 @@
+.upload-window{
+    background: linear-gradient(45deg, #8E0E00, #1E1E1E);
+    border-radius: 10px;
+
+}
+#upload_button{
+    font-size: 20px;
+    background: linear-gradient(45deg, #EE2523, #F68213);
+    font-weight: 800;
+    border-radius: 20px;
+    border: 0px;
+    color: #ffffff;
+}
+#notify{
+    font-size: 20px;
+}

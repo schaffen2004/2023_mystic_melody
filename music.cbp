@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="music"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="L:/temp/Project/C/music"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="music">
+				<Option output="L:/temp/Project/C/music/music.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="L:/temp/Project/C/music"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBDEFLATE_DLL"/>
+					<Add directory="L:/temp/Project/C/music"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/gtk-3.0"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/pango-1.0"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/glib-2.0"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../lib/glib-2.0/include"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/harfbuzz"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/freetype2"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/libpng16"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/fribidi"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/cairo"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/pixman-1"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/gdk-pixbuf-2.0"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/webp"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/atk-1.0"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 music"/>
+					<CompileFile command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="music/fast">
+				<Option output="L:/temp/Project/C/music/music.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="L:/temp/Project/C/music"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBDEFLATE_DLL"/>
+					<Add directory="L:/temp/Project/C/music"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/gtk-3.0"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/pango-1.0"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/glib-2.0"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../lib/glib-2.0/include"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/harfbuzz"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/freetype2"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/libpng16"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/fribidi"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/cairo"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/pixman-1"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/gdk-pixbuf-2.0"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/webp"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../include/atk-1.0"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="L:/Libs/2023_msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 music/fast"/>
+					<CompileFile command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="L:/temp/Project/C/music"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="L:/temp/Project/C/music"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="L:/Libs/2023_msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;L:/temp/Project/C/music/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="L:/temp/Project/C/music/main.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/models/listOfSong.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/models/listOfSong.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/models/songModel.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/models/songModel.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/models/userModel.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/models/userModel.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/HomePage.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/HomePage.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/IntroPage.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/IntroPage.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/SignInPage.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/SignInPage.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/SignUpPage.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/SignUpPage.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/addToPlaylist.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/addToPlaylist.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/explorerTab.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/explorerTab.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/myMusicTab.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/myMusicTab.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/myPlaylistTab.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/myPlaylistTab.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/playTab.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/playTab.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/playlistDetail.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/playlistDetail.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/updatePlaylist.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/updatePlaylist.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/uploadTab.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/page/components/uploadTab.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/query/playlistQuery.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/query/playlistQuery.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/query/songQuery.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/query/songQuery.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/query/userQuery.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/query/userQuery.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/utils/control.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/utils/control.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/utils/filter.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/utils/filter.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/utils/loadTemp.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/utils/loadTemp.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/utils/sys.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/utils/sys.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/utils/upload.c">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/utils/upload.h">
+			<Option target="music"/>
+		</Unit>
+		<Unit filename="L:/temp/Project/C/music/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

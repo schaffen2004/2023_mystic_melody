@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.5\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\music.dir/objects.a
+L:\Libs\2023_msys64\msys64\mingw64\bin\ar.exe cr CMakeFiles\music.dir/objects.a @CMakeFiles\music.dir\objects1.rsp
+L:\Libs\2023_msys64\msys64\mingw64\bin\gcc.exe -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\music.dir/objects.a -Wl,--no-whole-archive  -o music.exe -Wl,--out-implib,libmusic.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\music.dir\linklibs.rsp

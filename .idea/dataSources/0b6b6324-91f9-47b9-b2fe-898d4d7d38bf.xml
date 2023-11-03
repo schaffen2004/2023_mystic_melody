@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SQLite - musicStorage.db">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.19">
+    <root id="1">
+      <ServerVersion>3.43.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="playlistDetail"/>
+    <table id="7" parent="2" name="playlists"/>
+    <table id="8" parent="2" name="songs"/>
+    <table id="9" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="10" parent="2" name="users"/>
+    <column id="11" parent="6" name="namePlaylist">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <column id="12" parent="6" name="nameSong">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <column id="13" parent="7" name="playlistID">
+      <Position>1</Position>
+      <DataType>INT|0s</DataType>
+    </column>
+    <column id="14" parent="7" name="namePlaylist">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <column id="15" parent="7" name="quantitySong">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <column id="16" parent="7" name="userInit">
+      <Position>4</Position>
+      <DataType>INT|0s</DataType>
+    </column>
+    <column id="17" parent="7" name="statusPlaylist">
+      <Position>5</Position>
+      <DataType>INT|0s</DataType>
+    </column>
+    <column id="18" parent="8" name="songID">
+      <Position>1</Position>
+      <DataType>INT|0s</DataType>
+    </column>
+    <column id="19" parent="8" name="songName">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <column id="20" parent="8" name="artistName">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <column id="21" parent="8" name="durationSong">
+      <Position>4</Position>
+      <DataType>INT|0s</DataType>
+    </column>
+    <column id="22" parent="8" name="userPost">
+      <Position>5</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <column id="23" parent="9" name="type">
+      <Position>1</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="24" parent="9" name="name">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="25" parent="9" name="tbl_name">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="26" parent="9" name="rootpage">
+      <Position>4</Position>
+      <DataType>INT|0s</DataType>
+    </column>
+    <column id="27" parent="9" name="sql">
+      <Position>5</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="28" parent="10" name="userID">
+      <Position>1</Position>
+      <DataType>INT|0s</DataType>
+    </column>
+    <column id="29" parent="10" name="userName">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <column id="30" parent="10" name="passWord">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+  </database-model>
+</dataSource>
